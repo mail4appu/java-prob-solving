@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TraceRouteResponse>
+	<VSMS>
+		<vsmsIP>10.105.21.52</vsmsIP>
+		<vsmsID>123</vsmsID>
+	</VSMS>
+	<CAMERA>
+		<cameraIP>10.76.118.169</cameraIP>
+		<cameraID>456</cameraID>
+	</CAMERA>
+	<HOPS>
+		<HOP hopID="1 ">
+			<serverName></serverName>
+			<serverHost>10.105.20.2</serverHost>
+			<time1>1</time1>
+			<time2>1.652 ms</time2>
+			<time3>1.648 ms</time3>
+		</HOP>
+		<HOP hopID="2">
+			<serverName></serverName>
+			<serverHost>10.64.58.165</serverHost>
+			<time1>2</time1>
+			<time2>0.536 ms</time2>
+			<time3>0.653 ms</time3>
+		</HOP>
+		<HOP hopID="3">
+			<serverName></serverName>
+			<serverHost>10.76.119.2</serverHost>
+			<time1>3</time1>
+			<time2>6.856 ms</time2>
+			<time3>7.184 ms</time3>
+		</HOP>
+		<HOP hopID="4">
+			<serverName></serverName>
+			<serverHost>10.76.118.169</serverHost>
+			<time1>6.218 ms</time1>
+			<time2>6.331 ms</time2>
+			<time3>6.328 ms</time3>
+		</HOP>
+	</HOPS>
+</TraceRouteResponse>

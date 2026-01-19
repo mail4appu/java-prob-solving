@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://www.americanexpress.com/services/as/loyalty/rebate/LoyaltyRebateRedemptionService/ws/v1"
+    xmlns:tns="http://www.americanexpress.com/services/as/loyalty/rebate/LoyaltyRebateRedemptionService/ws/v1"
+    xmlns:tns1="http://www.americanexpress.com/schemas/as/loyalty/rebate/redumption/ws/request/v1/"
+    xmlns:tns2="http://www.americanexpress.com/schemas/as/loyalty/rebate/redumption/ws/response/v1/"
+    xmlns:tns3="http://www.americanexpress.com/schemas/as/loyalty/rebate/refund/ws/request/v1/"
+    xmlns:tns4="http://www.americanexpress.com/schemas/as/loyalty/rebate/refund/ws/response/v1/"
+    xmlns:comn = "http://www.americanexpress.com/schemas/as/loyalty/global/ws/response/v2/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    xsd:elementFormDefault="qualified">
+    <wsdl:types>
+        <xsd:schema targetNamespace="http://www.americanexpress.com/services/as/loyalty/rebate/LoyaltyRebateRedemptionService/ws/v1">
+            <xsd:import namespace="http://www.americanexpress.com/schemas/as/loyalty/rebate/redumption/ws/request/v1/"
+                schemaLocation="PayWithRebateWSRequest.xsd" />
+            <xsd:import namespace="http://www.americanexpress.com/schemas/as/loyalty/rebate/redumption/ws/response/v1/"
+                schemaLocation="PayWithRebateWSResponse.xsd" />
+           
+            <xsd:import namespace="http://www.americanexpress.com/schemas/as/loyalty/rebate/refund/ws/request/v1/"
+                schemaLocation="RebateRefundWSRequest.xsd" />
+            <xsd:import namespace="http://www.americanexpress.com/schemas/as/loyalty/rebate/refund/ws/response/v1/"
+                schemaLocation="RebateRefundWSResponse.xsd" />
+            <xsd:import
+                namespace="http://www.americanexpress.com/schemas/as/loyalty/global/ws/response/v2/"
+                schemaLocation="GlobalResponse.xsd" />   
+            <xsd:element name="RebateRedemptionFault" type="tns:LoyaltyFaultType" />           
+            <xsd:complexType name="LoyaltyFaultType">
+                <xsd:sequence>
+                    <xsd:element minOccurs="0" maxOccurs="1" name="errorCode" type="xsd:string" />
+                    <xsd:element minOccurs="0" maxOccurs="1" name="explainationCode" type="xsd:string" />
+                    <xsd:element minOccurs="0" maxOccurs="1" name="errorType" type="xsd:string" />
+                </xsd:sequence>
+            </xsd:complexType>   
+           
+           
+            <xsd:element name="RebateRefundFault" type="tns:LoyaltyFaultType1" />           
+            <xsd:complexType name="LoyaltyFaultType1">
+                <xsd:sequence>
+                    <xsd:element minOccurs="0" maxOccurs="1" name="errorCode" type="xsd:string" />
+                    <xsd:element minOccurs="0" maxOccurs="1" name="explainationCode" type="xsd:string" />
+                    <xsd:element minOccurs="0" maxOccurs="1" name="errorType" type="xsd:string" />
+                </xsd:sequence>
+            </xsd:complexType>           
+           
+        </xsd:schema>
+    </wsdl:types>
+    <wsdl:message name="payWithRebateWSRequest">
+        <wsdl:part name="payWithRebateWSRequest" element="tns1:PayWithRebateWSRequest"></wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="payWithRebateWSResponse">
+        <wsdl:part name="payWithRebateWSResponse" element="tns2:PayWithRebateWSResponse"></wsdl:part>
+    </wsdl:message>
+   
+    <wsdl:message name="rebateRefundWSRequest">
+        <wsdl:part name="rebateRefundWSRequest" element="tns3:RebateRefundWSRequest"></wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="rebateRefundWSResponse">
+        <wsdl:part name="rebateRefundWSResponse" element="tns4:RebateRefundWSResponse"></wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="rebateRedemption_fault">
+        <wsdl:part element="tns:RebateRedemptionFault" name="rebateRedemption_fault">
+        </wsdl:part>
+    </wsdl:message>
+   
+    <wsdl:message name="rebateRefund_fault">
+        <wsdl:part element="tns:RebateRefundFault" name="rebateRefund_fault">
+        </wsdl:part>
+    </wsdl:message>   
+   
+    <wsdl:portType name="LoyaltyRebateRedemptionServiceWS">
+        <wsdl:operation name="payWithRebate">
+            <wsdl:input message="tns:payWithRebateWSRequest" name="payWithRebateWSRequest"></wsdl:input>
+            <wsdl:output message="tns:payWithRebateWSResponse" name="payWithRebateWSResponse"></wsdl:output>
+            <wsdl:fault message="tns:rebateRedemption_fault" name="getRebateRedemption_fault" />
+        </wsdl:operation>
+        <wsdl:operation name="getRebateRefund">
+            <wsdl:input message="tns:rebateRefundWSRequest" name="rebateRefundWSRequest"></wsdl:input>
+            <wsdl:output message="tns:rebateRefundWSResponse" name="rebateRefundWSResponse"></wsdl:output>
+            <wsdl:fault message="tns:rebateRefund_fault" name="rebateRefund_fault" />
+        </wsdl:operation>
+    </wsdl:portType>
+
+    <wsdl:binding name="LoyaltyRebateRedemptionServiceSOAPBinding" type="tns:LoyaltyRebateRedemptionServiceWS">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+        <wsdl:operation name="payWithRebate">
+            <soap:operation soapAction="http://www.americanexpress.com/services/as/loyalty/LoyaltyRebateRedemptionService/ws/v1/payWithRebate" />
+            <wsdl:input name="payWithRebateWSRequest">
+                <soap:body use="literal" />
+            </wsdl:input>
+            <wsdl:output name="payWithRebateWSResponse">
+                <soap:body use="literal" />
+            </wsdl:output>
+            <wsdl:fault name="getRebateRedemption_fault">
+                <soap:fault name="getRebateRedemption_fault" use="literal" />
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="getRebateRefund">
+          <soap:operation soapAction="http://www.americanexpress.com/services/as/loyalty/LoyaltyRebateRedemptionService/ws/v1/getRebateRefund" />
+          <wsdl:input name="rebateRefundWSRequest">
+              <soap:body use="literal" />
+          </wsdl:input>
+          <wsdl:output name="rebateRefundWSResponse">
+              <soap:body use="literal" />
+          </wsdl:output> 
+          <wsdl:fault name="rebateRefund_fault">
+              <soap:fault name="rebateRefund_fault" use="literal" />
+          </wsdl:fault>
+        </wsdl:operation>
+    </wsdl:binding>   
+
+    <wsdl:service name="LoyaltyRebateRedemptionService">
+        <wsdl:port binding="tns:LoyaltyRebateRedemptionServiceSOAPBinding" name="LoyaltyRebateRedemptionServiceSOAPEndPoint">
+            <soap:address  ="http://apdwa554.webqa.ipc.us.aexp.com:9081/myca/loyalty/us/rebate/redeemsvc/v1/LoyaltyRebateRedemptionService"/>
+        </wsdl:port>
+    </wsdl:service>
+
+</wsdl:definitions>
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+    targetNamespace="http://www.americanexpress.com/schemas/as/loyalty/rebate/redumption/ws/request/v1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://www.americanexpress.com/schemas/as/loyalty/rebate/redumption/ws/request/v1/"
+    xmlns:global="http://www.americanexpress.com/schemas/as/loyalty/global/ws/request/v1/"
+    elementFormDefault="qualified">
+
+    <xsd:import schemaLocation="GlobalRequest.xsd"
+        namespace="http://www.americanexpress.com/schemas/as/loyalty/global/ws/request/v1/"/>
+    <xsd:element name="PayWithRebateWSRequest" type="payWithRebateWSRequest"/>   
+    <xsd:complexType name="payWithRebateWSRequest">
+     <xsd:sequence>
+            <xsd:element name="globalRequest" type="global:GlobalRequest"/>
+            <xsd:element name="payWithRebateRequest" type="PayWithRebateRequest"/>
+        </xsd:sequence>
+    </xsd:complexType>
+   
+    <xsd:complexType name="PayWithRebateRequest">
+        <xsd:sequence>
+            <xsd:element name="procModeCd" type="ProcModeCd" />
+            <xsd:element minOccurs="0" maxOccurs="1" form="unqualified" name="supOvrdId" type="SupOvrdId" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="channelID" type="xsd:string"/>
+            <xsd:element minOccurs="1" maxOccurs="1" name="memberTier" type="xsd:string"/>            
+            <xsd:element minOccurs="1" maxOccurs="1" name="totalRbtRedemptionAmt" type="xsd:decimal"/>
+            <xsd:element minOccurs="0" maxOccurs="1" name="partialPayCard" type="xsd:string"/>
+            <xsd:element minOccurs="1" maxOccurs="1" name="orderConfirmationNumber" type="xsd:string"/>
+            <xsd:element minOccurs="1" maxOccurs="1" name="activityDescription" type="xsd:string"/>
+            <xsd:element minOccurs="0" maxOccurs="1" name="AccountInfo" type="AccountInfo" />
+            <xsd:element name="programType" type="xsd:string" minOccurs="0" maxOccurs="1"/>           
+       </xsd:sequence>
+    </xsd:complexType>
+   
+    <xsd:simpleType name="ProcModeCd">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="U" />
+            <xsd:enumeration value="V" />
+        </xsd:restriction>
+    </xsd:simpleType>
+   
+    <xsd:simpleType name="SupOvrdId">
+      <xsd:restriction base="xsd:string">
+        <xsd:enumeration value="Y" />
+        <xsd:enumeration value="N" />
+      </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:complexType name="AccountInfo">
+            <xsd:sequence>
+                <xsd:element name="Account" type="Account" minOccurs="1" maxOccurs="unbounded"/>
+            </xsd:sequence>
+    </xsd:complexType>
+   
+    <xsd:complexType name="Account">
+          <xsd:sequence>
+                <xsd:element name="accountNumber" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+                <xsd:element name="accountType" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+            </xsd:sequence>
+    </xsd:complexType>
+  
+</xsd:schema>

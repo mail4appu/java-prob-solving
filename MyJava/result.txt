@@ -1,0 +1,742 @@
+1).  Personal / Business
+2).  First Name
+3).  Last Name
+4).  Email Address
+5).  Username
+6).  Create a Password
+7).  Country Code
+8).  Phone Number
+9).  Card Type
+10).  Card Number
+11).  CVV
+12).  Expiry Date (mm/yy)
+13).  Billing Address
+14).  Zip Code
+15).  Personal
+16).  Business
+17).  Compliance
+18).  The
+19).  Universal
+20).  Verification
+21).  Your phone number may help us reach out to you for service related notifications and two-factor authentication for enhanced security.
+22).  More plans
+23).  Monthly Plans
+24).  Billing information
+25).  Promo code (Optional)
+26).  By clicking on \u2018<span>Create My Account</span>\u2019, you agree to <a class
+27).  Important note on the offer:
+28).  The {0}% offer is applicable for the first year only. Discounts are not available for sign up or upgrade from IDrive mobile apps.
+29).  The 1 TB drive free offer is valid till supplies last and is available only in the USA.
+30).  The 1 TB free drive can be used for fast initial upload via <a href
+31).  IDrive Express
+32).  Sign up today and get {0}% off on your first year or get {1}% off on your first year for a 2 year plan. Personal and Business plans have been revised effective 09/09/2014 and 08/27/2014. Revised plans are available only for new signups or upgrades. An upgrade here means opting for a subscription plan with a higher charge compared to the existing charges. For example, upgrading from 250 GB at $99.50/year to 500 GB at $199.50/year would be a valid qualifying upgrade. Discounts are not available for signup or upgrade from IDrive mobile apps.
+33).  The {0}% offer is applicable for the first year only.
+34).   {0} plans have been revised effective 08/27/2014, and are available only for new signups or upgrades.  An upgrade here means opting for a subscription plan with a higher charge compared to the existing charges. For example, upgrading from 250 GB at $99.50/year to 500 GB at $199.50/year would be a valid qualifying upgrade. Discounts are not available for signup or upgrade from IDrive mobile apps.
+35).  Online Backup
+36).  One stop solution to backup unlimited PCs, Macs, iPhones, iPads and Android devices into a single account!
+37).  Safe and secure
+38).  We&rsquo;ll secure and protect your files with military grade encryption
+39).  Faster backup/restore for up to 3 TB data via physical shipment of hard drives.
+40).  Get assistance for complying with <a href
+41).  Know more
+42).  Now, get additional space for online file Sync, equivalent to your IDrive plan!
+43).  Universal Online Backup
+44).  A single IDrive account can backup all of your PCs, Macs, Android, iOS, and Windows Phone devices, at no extra cost!
+45).  Secure and protect your files with military grade  256-bit AES encryption and an optional private key
+46).  Faster backup/restore data via physical shipment of hard drives \u2013 free 3X a year.
+47).  Sub-accounts
+48).  Create multiple accounts within your storage space and monitor from a single administrator console
+49).  Server Backup
+50).  Online Backup for your servers and databases - <a href
+51).  Social Media Backup
+52).  Easily backup Facebook and Instagram photos and videos into a single  account
+53).  1-866-748-0555
+54).  Business hours: 6:00 to 6:00 PM PST
+55).  Company Name (legal name)
+56).  DBA Name (if any)
+57).  Partner ID
+58).  Password
+59).  Street Address 1
+60).  Street Address 2
+61).  City
+62).  State
+63).  Country
+64).  ZIP Code
+65).  State/Province
+66).  Paypal Email Address
+67).  Name
+68).  Phone Number (with extension)
+69).  Enter a new promo code of your choice
+70).  Continue
+71).  Submit
+72).  Pricing
+73).  Download
+74).  Features
+75).  Corporate
+76).  change
+77).  Change
+78).  Resources
+79).  Users
+80).  From
+81).  To
+82).  size
+83).  S.No
+84).  Partner Support
+85).  Online Backup for PC, Mac and iPhone | IDrive
+86).  of IDrive online backup
+87).  Get apps for PC, Mac, Linux and Mobiles
+88).  Storage options made for all
+89).  Be an affiliate
+90).  Company information
+91).  PayPal is the preferred and quickest manner of receiving commission payments. If you do not have a PayPal account start one here. Otherwise we will send a check to the Company address
+92).  Note: If the total earned commission for a particular quarter is less than $10, that commission will be forfeited and not carried over.
+93).  If you have not entered a valid PayPal account into your Parter Profile, your commission may be forfeited.
+94).  Partners outside the US: Checks are not sent internationally. If you have not entered a valid PayPal address you may not receive your commission.
+95).  How did you hear about us?
+96).  Which search engine did you use?
+97).  In which publication did you read about IDrive?
+98).  Enter more information if you like
+99).  I agree to the <a class
+100).  I agree to the <a class
+101).  Make a Profit
+102).  Refer IDrive and earn 25% commission on every signup that comes through you.
+103).  IDrive Online Backup
+104).  IDrive Inc.
+105).  Partner's Workbench
+106).  Refer IDrive - Earn commission on every signup!
+107).  View commissions
+108).  Ensure your referrals signup using either the link or the promo code.
+109).  Signup link
+110).  Promo code
+111).  Marketing Kit
+112).  Promotional banners
+113).  App screenshots
+114).  User Report
+115).  Total Users
+116).  Account information
+117).  Backup Summary
+118).  Please Update Your Form W-9 Information
+119).  <p>Please make sure your company's Form W-9 information is current and accurate. </p><p>Commission payments may be subject to IRS-mandated withholding if the information we have on file is incorrect. - Thank you!</p>
+120).  Last backup Details
+121).  Files considered for backup
+122).  Files backed up now
+123).  Files failed to backup
+124).  Storage details
+125).  otal size of Aron-PC
+126).  Total files in Aron-PC
+127).  Introduction to the IDrive Referral Partnership
+128).  IDrive Overview Presentation
+129).  IDrive Data Sheet
+130).  Unconfirmed Users
+131).  Select the destination folder
+132).  Following users have signed up via your referral link, but are yet to confirm you as a referrer.
+133).  Desktop Backup Report for
+134).  The report displays backup status for the last seven days. For older records
+135).  indicates majority of files are successfully backed up.
+136).  Update Now
+137).  Commission Report
+138).  Select month and year.
+139).  Quarterly Report
+140).  Customized Report
+141).  IDrive promotional banners
+142).  Select the promotional graphic(s) that best suits your requirement. For any assistance, email us at
+143).  Web banner HTML code
+144).  IDrive Remote Backup
+145).  Send Verification email
+146).  Ask to confirm
+147).  No Records
+148).  Description
+149).  Contact Number
+150).  Join IDrive today as a Bulk Reseller!
+151).  Choose a subscription
+152).  Storage Space
+153).  Plus another {0} off for the 1st year!
+154).  Note: Depending on the plan, certain number of Licenses/Sub-Accounts would be free. Additional fees apply for additional licenses/Sub-Accounts.
+155).  Want a customized account? Contact support
+156).  Custom plans
+157).  Free Plan
+158).  5 GB Free Storage space
+159).  Only qualifying accounts can integrate company logo into a custom version of the software, for greater brand recognition.
+160).  Account Details
+161).  Important note:
+162).  Bulk Reseller Program
+163).  Purchase storage space and resell it at a price you determine
+164).  Cloud Storage
+165).  Purchase bulk storage space at affordable rates and resell the IDrive solution to your customers
+166).  Create multiple accounts from your storage space and manage with ease from a centralized interface
+167).  Generate Revenue
+168).  Boost your profitability and increase your sales, by reselling IDrive at a price point you determine
+169).  Priority Support
+170).  IDrive will support your customers for any technical issues, while you manage the account payables
+171).  Bulk Reseller Support <span>Send your requirements to help us customize your account, just the way you need.</span>
+172).  Username/Email
+173).  Sign up Now
+174).  Send link 
+175).  Login
+176).  Backup Online Unlimited PCs, Macs, iPhones, iPads and 
+177).  Android devices into a Single Account!
+178).  An email has been sent to your registered email address with the password reset link.
+179).  Username/Email or password you entered are not correct. Please try again.
+180).  Forgot Password
+181).  A link will be sent to the email address to reset password
+182).  Windows
+183).  download
+184).  Mac
+185).  iPhone/iPad
+186).  Android
+187).  iPhone
+188).  Account
+189).  Profile
+190).  Reports
+191).  Events
+192).  Upgrade
+193).  Storage
+194).  of
+195).  space
+196).  off
+197).  Logout
+198).  Update Credit Card
+199).  Additional Accounts
+200).  Linked Devices
+201).  Desktop Backup Report
+202).  Billing Information
+203).  your IDrive account and
+204).  get equivalent Sync storage space.
+205).  Earn Credits
+206).  Backup Space
+207).  Sync Space
+208).  Get unlimited devices backup including PCs and Macs!
+209).  and get upto
+210).  and get
+211).  Add Storage
+212).  Sync space full!
+213).  Contacts
+214).  Search
+215).  Confirm
+216).  Home
+217).  Uploading
+218).  Backup
+219).  Sync
+220).  Shortcuts
+221).  You have utilized the allocated storage space.
+222).  You have been referred to IDrive by
+223).  I was not referred by
+224).  Would you like to access all your digital data without cloud... Try
+225).  Hide Details
+226).  Remote Manage
+227).  Shared by Me
+228).  Shared with Me
+229).  Social Data Backup
+230).  Facebook Backup
+231).  Instagram Backup
+232).  IDrive Wi-Fi
+233).  Security Check
+234).  Claim your
+235).  free account!
+236).  free account. Your offer expires on
+237).  Use the below link to create your free account.
+238).  Gift this free account to
+239).  Comments (Optional)
+240).  Gift this Now!
+241).  Will do later!
+242).  With our Buy 1 &amp; Get 1 Free offer, you are now eligible to claim or gift a
+243).  www.idrivesync.com
+244).  Number
+245).  Current Password
+246).  New Password
+247).  Visa
+248).  Master Card
+249).  American Express
+250).  Discover
+251).  Card Expiry Date
+252).  Confirm New Password
+253).  I am cancelling my IDrive account because
+254).  Comments
+255).  Password (re-enter your password)
+256).  Provide a description about the issue for us to get right back to you.
+257).  Continue Cancellation
+258).  No Thanks
+259).  Yes
+260).  No
+261).  Cancel Additional Accounts
+262).  Do not cancel Additional Accounts
+263).  Update
+264).  Cancel
+265).  Delete
+266).  Continue with IDrive Express
+267).  Apply Pending Charges
+268).  No, cancel my account
+269).  Report to Support
+270).  Accept Offer
+271).  Stay with IDrive
+272).  account(s)
+273).  Edit
+274).  Close
+275).  Email
+276).  View
+277).  Amount($)
+278).  Invoice
+279).  Back
+280).  Credited:
+281).  Plan
+282).  Caution
+283).  Dial {0} 
+284).  FREE!
+285).  Details
+286).  Confirmation
+287).  Profile Details
+288).  Name, email address, phone number and password
+289).  Your profile has been successfully updated.
+290).  Login to the desktop client with your new password to reflect the change, else your backup jobs may fail to execute.
+291).  Send me updates on IDrive.
+292).  Change Password
+293).  Save Changes
+294).  Credit Card Information
+295).  Click on 'Apply Pending Charges' when you change your card, to pay the pending charges with your new card.
+296).  Additional Accounts are similar to regular accounts, however you will manage billing / user information and view the backup summary.
+297).  No Additional Accounts.
+298).  Used Quota
+299).  Add this Computer
+300).  List of devices linked to your account
+301).  No Linked Devices in your account. 
+302).  Install IDrive
+303).  and enable sync to link a device to your account.
+304).  View additional account transactions
+305).  Next Billing Date:
+306).  Transaction History
+307).  Print Transaction Summary
+308).  Bill Date
+309).  <span>Grand Total</span> (Including all Charges and	Refund): 
+310).  My Apps
+311).  Apps accessing your IDrive account
+312).  App name
+313).  Publisher Name
+314).  Delete app
+315).  Cancel my account
+316).  (Your files and folders will be removed).
+317).  Storage Used
+318).  Get unlimited devices backup including PCs and Macs!
+319).  <span>and get {0}</span> {1}% off
+320).  your IDrive account and<br> get equivalent Sync storage space.
+321).  Redeemed Credits:
+322).  Available Credits:
+323).  IDrive Free Trial
+324).  Are you sure you want to cancel your account?
+325).  On cancelling your IDrive account, 
+326).  all of your files will be permanently deleted. Your files will no longer be protected by IDrive and they may be prone to data loss.
+327).  We highly recommend that you continue using IDrive.
+328).  all data from your backup and sync (if enabled) folders will be permanently deleted from our servers. If you used Local Backup feature, you will NOT be able to access that data from your external drive as well. 
+329).  Refunds are issued only if the account is cancelled within {0} days of its creation.
+330).  Cancelling your account will also cancel all the sub-accounts and the data associated will be deleted.
+331).  I am cancelling my IDrive account because
+332).  Select a reason
+333).  IDrive does not have necessary features
+334).  IDrive was too slow
+335).  IDrive customer support was not helpful
+336).  I do not require online backup/storage now
+337).  Others (Use Comments box below)
+338).  Data protection is a must for your digital life! We highly recommend you to continue using IDrive and keep your files safe.
+339).  If you would still like to cancel your account, please let us know why:
+340).  Have unresolved technical issues
+341).  all of your files and folders are permanently deleted from our servers.
+342).  Are you sure you want to reset your account?
+343).  All your data will be deleted!
+344).  Resetting your account will allow you to choose a new encryption method, and will permanently delete your existing files and folders, and remove your access to any data backed up locally. Please delete any local backup data before resetting your account.
+345).  If unresolved issues are bothering you, please let us help!
+346).  We are sorry you still have unresolved issues. However, if you just tell us your problem via live chat, phone, or email, our Priority Support will attend to it immediately!
+347).  Department Extensions
+348).  for sales
+349).  to avail Technical support
+350).  for all your Billing inquiries
+351).  to contact Reseller support
+352).  Monday - Friday: 6:00 AM to 6:00 PM PST
+353).  Your files will be at risk!
+354).  Take a look at some real figures on data loss:
+355).  {0}% of all PC users suffer data loss each year (Gartner)
+356).  {0}% of all tape backups fail to restore (Gartner)
+357).  {0}% of companies that suffer a catastrophic data loss do not survive (University of Texas)
+358).  {0} of {1} small firms that experience a major data loss go out of business in a year (DTI/Price waterhouse Coopers)
+359).  Disasters are never too far and can hit your digital life really hard. As an effort to encourage you to backup your files and stay safe, IDrive offers you <strong>25 GB</strong> of extra cloud storage absolutely
+360).  Offering most features at best rates!
+361).  IDrive offers the most competitive features set and pricing in the market. Take a look at some stats and you\u2019d be assured that your choice to partner with IDrive is just right!
+362).  Cancel Account 
+363).  Your credit card details has been updated.
+364).  Listed below are the active paid additional accounts, associated with your main account. If you wish to update the credit card details for the additional account(s) then click "Update". To retain the existing credit card information click "No Thanks".
+365).  Payment Confirmation
+366).  Additional Account Cancellation
+367).  Are you sure you want to cancel the additional account
+368).  Confirm cancellation of all your additional accounts
+369).  If you cancel your main account, all your additional accounts will be independent. Click on "Do not cancel Additional accounts" to retain all your additional accounts.
+370).  Backup Status Report for :
+371).  Backup Logs for Computer :
+372).  Web based logs may not be accurate and complete. For the exact status of your backups, review the application logs.
+373).  Linked computers
+374).  File Count
+375).  Last Backup
+376).  The report displays backup status for the last seven days. For older records, 
+377).  click here.
+378).  Backup Status
+379).  Operation Type
+380).  Date and Time
+381).  <strong>Note:</strong> <span class
+382).  indicates majority of files are successfully backed up/restored.
+383).  No records found.
+384).  Your credit card will be charged for
+385).  once you click the Upgrade button.
+386).  Additional Account - Update
+387).  some contents
+388).  Pending charges towards your IDrive subscription
+389).  Your current plan is valid from <strong>{0} to {1}
+390).  Your credit card was declined while processing. The reasons could be:
+391).  Your credit card has expired. 
+392).  The credit card information provided was incorrect.
+393).  Your credit card does not have sufficient funds available.
+394).  Update your credit card information
+395).  Confirm app deletion
+396).  Are you sure you want to delete
+397).  The highest available plan has already been opted. If you are in need of more storage space, contact our support team at <a href
+398).  Get additional space for file Sync, equivalent to your IDrive plan!
+399).  Promo ({0}% off)
+400).  Plus another {0}% off for the 1st year!
+401).  IDrive <span>Personal</span>
+402).  IDrive <span>Business</span>
+403).  with {0}% off for the first year
+404).  The 50% offer is applicable for first year of subscription only.
+405).  Upgrade Account
+406).  Unshare
+407).  All
+408).  Message
+409).  yahoo
+410).  gmail
+411).  print
+412).  left
+413).  Upload
+414).  Save
+415).  Insert
+416).  Send
+417).  Shared on
+418).  View shared from
+419).  Edit Share
+420).  Copy link
+421).  Files selected to share
+422).  Share Settings
+423).  Can view
+424).  Can edit
+425).  Share via email
+426).  Share via Facebook
+427).  Share via Twitter
+428).  Address book
+429).  Save & Send email
+430).  Address Book
+431).  All contacts
+432).  Add contacts
+433).  Import contacts
+434).  Add contact
+435).  Image name
+436).  go fullscreen
+437).  Send via email
+438).  Preview Link
+439).  Full screen
+440).  Rotate left
+441).  Rotate right
+442).  Listview
+443).  Size
+444).  Modified
+445).  Loading
+446).  Upload Files
+447).  Upload Folder
+448).  Thumbnail View
+449).  List View
+450).  Total Contacts:
+451).  30
+452).  (as on
+453).  _ _ _ )
+454).  Total Event backed up:
+455).  Shared from
+456).  No files in this folder.
+457).  Encryption Key
+458).  Enter the encryption key to access data.
+459).  Provide the same encryption key set by you during your first login.
+460).  Do not share the encryption key to ensure your data security.
+461).  View files
+462).  File(s) exceeding 2 GB limit
+463).  Lockman
+464).  close
+465).  When
+466).  Duration
+467).  Error
+468).  OK
+469).  Copy Link
+470).  Delete Link
+471).  Pin Files to IDrive
+472).  Save the files shared with you to your IDrive account for quick access.
+473).  All the pinned files appear under 'Shared with Me' tab.
+474).  Uploading to 'IDrive'
+475).  Date &amp; Time
+476).  Drag-n-drop files onto the browser from your desktop to upload or click on&nbsp;
+477).  The link is expired.
+478).  Enter Password
+479).  Enter the file password that is shared by the sender
+480).  Email address
+481).  Login to IDrive
+482).  Forgot password?
+483).  Save to...
+484).  Following folders will not be saved
+485).  Shared by:
+486).  Sign up
+487).  Pro Softnet Corporation
+488).  Reseller
+489).  Legal
+490).  Support
+491).  FAQ
+492).  IDrive Inc.
+493).  Available
+494).  discount
+495).  Status
+496).  IDrive - Refer Friends
+497).  Your link has been successfully posted.
+498).  Refer friends and earn 20% of the signup amount
+499).  Tell your friends they can save even more on their first year of IDrive through you (50% - that's twice our regular offer!), and you'll earn 20% of the signup amount as credit towards your next renewal, or getting more space for your account.
+500).  Credits Earned
+501).  Pool up credits for your next renewal
+502).  Refer via email
+503).  Enter email addresses
+504).  (separate multiple addresses with a comma or semicolon)
+505).  Import contacts
+506).  We do not store your authentication information.
+507).  Refer via social media
+508).  Protect your digital life with IDrive online backup.
+509).  Credit Report
+510).  User Name
+511).  Creation Date
+512).  Transaction Amount
+513).  Total Credits Earned
+514).  Yet to be Credited:
+515).  Credits will be transferred to your account after 15 days of your referral account creation.
+516).  Note
+517).  Secure online backup for your Facebook photos and videos
+518).  Facebook Backup will backup all the photos, videos, and albums in your Facebook account including any tagged items. You can backup multiple Facebook accounts to your IDrive account. Once you start the backup, a folder with your Facebook profile name will be created in your IDrive account and you can access all of your backed up Facebook files from there. IDrive performs incremental backups, which means subsequent backups will only include the new pictures and videos that have been added since the last backup. IDrive does not store your Facebook information, so every time you wish to backup your Facebook data, you must provide your Facebook account credentials.
+519).  Facebook backup
+520).  Learn More
+521).  List of backed up Facebook accounts
+522).  Facebook Profiles
+523).  We are currently importing photos and videos from your Facebook account. Please check back later. Once the backup is complete, a folder with your Facebook profile name will be created containing all your files.
+524).  Secure your Instagram photos and videos to your IDrive account
+525).  IDrive backs up all the photos and videos you share using Instagram. You can backup multiple Instagram accounts to your IDrive account. Once you initiate an Instagram backup, a folder with your Instagram profile name is created in your IDrive account and all of your Instagram photos and videos are safely transferred to it. IDrive performs incremental backups, which means every time you perform Instagram backup, the photos and videos that have been added since the last backup are transferred to your IDrive account. IDrive does not store your Instagram account information. So, whenever you wish to backup your Instagram data, you must initiate the backup and provide your Instagram account credentials. 
+526).  IDrive does not store your Instagram account information. So, whenever you wish to backup your Instagram data, you must initiate the backup and provide your Instagram account credentials.
+527).  Instagram backup
+528).  Know More
+529).  List of backed up Instagram accounts
+530).  Instagram Profiles
+531).  Backup of photos and videos from your Instagram account is in progress. As soon as the backup is complete, a folder with your Instagram profile name, containing all your files, will appear in your IDrive account.
+532).  Organization Name
+533).  Contact Person
+534).  Phone
+535).  Ext
+536).  Special Request / Comments
+537).  Submit Request
+538).  Get your data to and from the cloud fast with up to a 3 TB IDrive Express drive, shipped directly to your door!
+539).  Subsequent backup requests will be subject to the $59.95 charge. Express Restores will be charged $99.50 per request. (Service available in the USA, Canada, Germany, France, Italy, Australia and the UK.)
+540).  This service comes FREE for Express Backup, thrice yearly!
+541).  This service comes FREE for Express Backup, once per year!
+542).  Select the service that you want to use
+543).  Backup (Send your data to IDrive - 100 GB minimum)
+544).  Restore (Restore your data from IDrive - 100 GB minimum)
+545).  Choose OS
+546).  Contact Information
+547).  Shipping Address
+548).  Address Line
+549).  Hard Drive Shipment Agreement
+550).  This service comes FREE for Express Backup, once a year for Pro Personal users and thrice yearly for Pro Business users. Subsequent backup requests will be subject to the $59.95 charge. Express Restores will be charged $99.50 per request.
+551).  The storage devices are available on a first-come- first-serve basis, and while supplies are available.
+552).  Temporary storage devices owned, maintained and used for this service are securely erased according to the DOD 5220.22-M (E) standard before being re-used.
+553).  <b>For Backup:</b> Once we receive the temporary storage device, it typically takes 2 to 5 business days to transfer the data to your account. Occasionally, it may take longer than 10 days due to high volume.
+554).  <b>For Retrival:</b> Once we receive your request, it will take around 2 to 5 business days for data to be transferred to a temporary storage device and shipped to you.  
+555).  You will be responsible for arranging shipping, handling, tracking and insuring the temporary storage device back to IDrive. IDrive assumes no liability for a lost or damaged drive or for loss or breach of data during the return shipment process. 
+556).  Please notify IDrive in case of technical issues with the service at
+557).  support@idrive.com
+558).  You accept full liability of the temporary storage device, its components and accessories while in your possession.
+559).  If the device is not returned within four (4) weeks from the date it is received, IDrive will charge $99.95 replacement fee for up to 3 TB hard drives; larger hard drives may incur higher replacement costs.
+560).  If the device is received in a damaged condition, IDrive will charge $99.95 replacement fee for up to 3 TB hard drives; larger hard drives may incur higher replacement costs.
+561).   Pro Personal users and Pro Business users can request this data retrieval service for $99.50.
+562).  Orders placed during business hours will be entitled to the 48 hour time frame, excluding weekends. Action cannot be taken after hours or on weekends.
+563).  All orders should be placed before 3 PM (Pacific Time), to start the 48 hour period that day. Orders placed after 3 PM (Pacific Time) will be considered received at 9 AM the following working day.
+564).  We may contact you after you place an order to verify its legitimacy.
+565).  The 48 hour time frame is for data retrieval up to 1 TB. Larger capacity restores can take longer. If your data exceeds 1 TB, we recommend you indicate any critical data, so that we can prioritize its retrieval.
+566).  While we take every possible precaution, there is always the potential for technical difficulty related delays.
+567).  Delays may arise due to unforeseen issues with courier/shipping etc. IDrive takes no responsibility for such delays.
+568).  You acknowledge that if you don't use the current version of IDrive application to backup your data to the device, it is possible that the data is possibly stored unencrypted on the hard drive and that no sensitive data is included.
+569).  Hard Drive Liability
+570).  I agree to the terms of the
+571).  Credit Card Verification Code (CVV)
+572).  Expiry Date
+573).  Quantity
+574).  Local backup - with speed of Wi-Fi and security of IDrive
+575).  Get the advantage of local backup with the IDrive Wi-Fi device - a complementary solution to your online backup. While online backup helps you to recover from disaster and data loss, local backup makes recovery faster. That\u2019s why we have IDrive Wi-Fi - a local storage device that combines the security of private key encryption and the convenience of local connectivity. 
+576).  Choose Your Device Storage
+577).  Select the number of drives required
+578).  Total Amount
+579).  IP Address
+580).  Start Date
+581).  End Date
+582).  View Report
+583).  Events for current month
+584).  Browser-based activities only
+585).  Share
+586).  Copy
+587).  Move
+588).  Trash
+589).  Versions
+590).  Rename
+591).  Nickname
+592).  Version
+593).  Print
+594).  Paste
+595).  Settings
+596).  delete
+597).  share
+598).  Path
+599).  Add
+600).  Files
+601).  Phone number
+602).  Copying files...
+603).  New Folder
+604).  Put Back
+605).  Empty Trash
+606).  Shortcuts Delete
+607).  earlier_versions
+608).  Online File Sync
+609).  Sync files between all your devices - any changes made to a file on one device will be
+610).  automatically synced to your IDrive account and to all linked devices.
+611).  Enable Sync and you will have FREE additional sync space, equivalent to your IDrive account storage space!
+612).  Enable Sync
+613).  Sync is successfully enabled for your account!
+614).  Keep your files in sync!
+615).  Drag and drop or click on 
+616).  to sync files.
+617).  Start syncing files from your computer
+618).  Download IDrive
+619).  Protect your data with IDrive!
+620).  This folder is empty.
+621).  Drag-n-drop files onto the browser from your desktop to upload or click on
+622).  Welcome to IDrive!
+623).  Your IDrive account has been successfully created.
+624).  IDrive download should start in a moment. If your download does not begin,
+625).  The 50% offer is applicable for the first year only.
+626).  Create Shortcut
+627).  Remove Shortcut
+628).  View Trash
+629).  Move to
+630).  Versions of
+631).  Previous versions
+632).  Be sure to 'Save' the details
+633).  Send email
+634).  Congratulations! 1 TB Drive is yours for FREE
+635).  Provide your shipping address to receive the drive.
+636).  Address Line
+637).  Note: IDrive assumes no liability for a lost or damaged drive during the shipment process.
+638).  Send Drive
+639).  Hide full screen
+640).  facebook share
+641).  Enter Encryption Key
+642).  Provide your IDrive Encryption Key to access data.
+643).  Enter the same Encryption Key set by you during your first login to IDrive. Do not share the Encryption Key with anybody to ensure your data security.
+644).  Folder name
+645).  Folder size
+646).  File count
+647).  Modified date
+648).  The nickname of device
+649).  Add Nickname
+650).  Enter a nickname
+651).  Enter the nickname
+652).  Update your credit card information and click on 'Apply Pending Charges' to pay your outstanding charges.
+653).  Update card information
+654).  Like us on facebook and receive
+655).  Follow us on twitter and receive
+656).  Follow @IDriveBackup
+657).  Help us to serve you better!
+658).  To Sync files from your computer, ensure that IDrive
+659).  or above is installed.
+660).  Drag-n-drop files onto the browser from your desktop to upload <br> or click on
+661).  Signup
+662).  Partner ID/Email
+663).  Select
+664).  IDrive - Universal online backup
+665).  Resell and Profit
+666).  You will make a tidy profit for every signup
+667).  Partner ID/Email or password is incorrect.
+668).  You are trying to access a cancelled account.
+669).  Your password has been updated. You can now login to your IDrive account with the new password.
+670).  Remember me
+671).  Feedback form
+672).  Reseller home
+673).  Partner Login
+674).  Multiple accounts are associated with your email, select a Partner ID
+675).  My IDrive
+676).  Security
+677).  Developers
+678).  Blog
+679).  Products
+680).  Services
+681).  Resellers
+682).  Help
+683).  FAQs
+684).  Reviews
+685).  Facebook
+686).  Twitter
+687).  LinkedIn
+688).  Google+
+689).  IDrive Forum
+690).  Success
+691).  OTP
+692).  singleLogin
+693).  multipleLogin
+694).  Sign up for an account
+695).  Pricing plans
+696).  Educational Offer
+697).  Mobile  Backup
+698).  Linux Backup
+699).  Qnap Backup
+700).  Synology Backup
+701).  Business compliance
+702).  Video Tutorials
+703).  Press releases
+704).  IDrive&reg; - Universal online backup
+705).  One stop solution to backup unlimited PCs, Macs, iPhones, iPads and
+706).  Invalid Login
+707).  Username or password you entered are not correct. Please try again.
+708).  It is important that you reflect the new password via the desktop client where you are executing your backups, or else backups may fail.
+709).  Your IDrive account has been cancelled as per your request.
+710).  Multiple accounts are associated with your email, select a Username
+711).  Too many failed attempts. Please enter security code as displayed
+712).  Enterprise
+713).  Versioning
+714).  Security
+715).  Online Backup and Server Backup for your Enterprise -IDrive&reg;
+716).  Back to idrive.com
+717).  Contact Us
+718).  Online Backup - IDrive
+719).  Start your Enterprise Trial
+720).  30 day Free Trial - 50 GB Backup space + 50 GB Sync space
+721).  Why Choose Us?
+722).  Universal Backup
+723).  Backup unlimited PCs, Macs, iOS and Android devices into a single account.
+724).  Restore up to 10 previous versions of all files backed up to your account.
+725).  Ultimate protection of your data with military grade 256-bit AES encryption and an option for a private key.
+726).  IDrive Home
+727).  If it is a free trial, why are the credit card details required?
+728).  The IDrive free trial allows you to evaluate our online backup, storage and sharing service.
+729).  Your credit card details are collected to give you a hassle-free transition to an IDrive paid subscriber, which means that once you have completed your free trial, you can continue using the service without any interruption.
+730).  In case, you do not cancel your account within the trial period, your credit card will be billed on a monthly basis at the end of free trial period.
+731).  Create My Account
+732).  Month
+733).  Year
+734).  Date
+735).  List of Computers
+736).  Command Log
+737).  Show Logs for
+738).  View Log
+739).  Computer Name
+740).  Backed up Files Size
+741).  The report displays backup status for the last seven days. For older records,
+742).  Logs for the month
