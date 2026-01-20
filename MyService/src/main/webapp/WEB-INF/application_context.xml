@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    <!--Required for identifying @Autowired @Resource annotations etc  -->
+	<context:annotation-config />
+	<!-- <context:component-scan base-package="com.idrive.server.resources" /> -->
+	
+	<bean id="myStock" class="com.idrive.bean.Stock"></bean>
+	<!--required for identifying @componet annoation. When @Component is there on javaclass we dont need to define that as bean in this file  -->
+	<!-- <context:component-scan base-package="com.idrive.resources" /> -->
+	<!-- <bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource">
+		<property name="driverClassName" value="org.apache.derby.jdbc.ClientDriver"></property>
+		<property name="url" value="jdbc:derby://localhost:1527//opt/squirrel-sql-3.5.3/clientdb;create=false"></property>
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+		<property name="url" value="jdbc:mysql://localhost:3306/mydb"></property>
+		<property name="username" value="root"></property>
+		<property name="password" value="root"></property>
+		<property name="password" value="root123"></property>
+		<property name="initialSize" value="5"></property>
+	</bean>	
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+	<bean id="wsHandler" class="com.prosoftnet.workspaces.handler.WorkspaceHandler" scope="prototype"/>
+	<bean id="wsDao" class="com.prosoftnet.workspaces.dao.WorkspaceDao" />
+	<bean id="workspace" class="com.prosoftnet.workspaces.bean.Workspace" scope="prototype"/>
+	<bean id="wsDetails" class="com.prosoftnet.workspaces.bean.WorkspaceDetails" scope="prototype"/>
+	<bean id="wsMemberDetails" class="com.prosoftnet.workspaces.bean.WorkspaceMemberDetails" scope="prototype" /> -->
+
+</beans>

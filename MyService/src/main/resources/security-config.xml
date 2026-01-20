@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:sec="http://www.springframework.org/schema/security"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" 
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+      http://www.springframework.org/schema/security
+      http://www.springframework.org/schema/security/spring-security-3.2.xsd
+      http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+      http://www.springframework.org/schema/context
+	  http://www.springframework.org/schema/context/spring-context-3.2.xsd
+	  http://www.springframework.org/schema/jee 
+	  http://www.springframework.org/schema/jee/spring-jee.xsd 
+	  http://www.springframework.org/schema/util 
+	  http://www.springframework.org/schema/util/spring-util.xsd">
+	  
+    <context:annotation-config />
+    <context:component-scan base-package="com.idrive.server.resources" />
+	
+	<sec:http pattern="/api/v1/**" authentication-manager-ref="htpdpwdAuthenticationManager"  auto-config="true" use-expressions="true" create-session="stateless">
+	<sec:intercept-url pattern="/api/v1/**" method="OPTIONS" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+	<sec:intercept-url pattern="/api/v1/internal/**" access="hasRole('IS_AUTHENTICATED_FULLY')"/>
+		<sec:http-basic></sec:http-basic>
+	</sec:http>
+
+	
+
+	<!-- <sec:authentication-manager id="htpdpwdAuthenticationManager">
+		<authentication-provider>
+			<user-service>
+				<user name="appu" password="appu" authorities="ROLE_APP" />
+			</user-service>
+		</authentication-provider>
+	</sec:authentication-manager> -->
+
+
+<sec:authentication-manager id="htpdpwdAuthenticationManager">
+			<authentication-provider ref="customAuthenticationProvider" />
+	</sec:authentication-manager>
+
+
+	<!-- <beans:bean id="authenticationFilter"
+		class="org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter">
+		<beans:property name="authenticationManager" ref="authenticationManager" />
+		<beans:property name="postOnly" value="false" />
+		<beans:property name="authenticationSuccessHandler"
+			ref="customSuccessHandler" />
+	</beans:bean>
+
+	<beans:bean id="customSuccessHandler"
+		class="com.jcg.examples.authentication.CustomSuccessHandler" /> -->
+
+</beans:beans>

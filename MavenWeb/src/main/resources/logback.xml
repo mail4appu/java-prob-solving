@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <property name="LOG_PATTERN"
+              value="%msg%n" />
+
+    <appender name="ANALYTICS-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>C:\\Users\\SESA439295\\Downloads\\auditlogs\\maven-web-audit.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+                  
+            <fileNamePattern>C:\\Users\\SESA439295\\Downloads\\auditlogs\\maven-web-audit-%d{yyyy-MM-dd_HH-mm}.log.gz</fileNamePattern>
+            <maxHistory>3</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+            <immediateFlush>true</immediateFlush>
+        </encoder>
+        <discardingThreshold>0</discardingThreshold>
+    </appender>
+
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>C:\\Users\\SESA439295\\Downloads\\logs\\maven-web.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>C:\\Users\\SESA439295\\Downloads\\logs\\maven-web-%d{yyyy-MM-dd_HH-mm}.%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- or whenever the file size reaches 512MB -->
+                <maxFileSize>512MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!-- keep 30 days' worth of history or 30 files -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+            <immediateFlush>true</immediateFlush>
+        </encoder>
+    </appender>
+
+    <logger name="net.viralpatel.maven" level="INFO" additivity="false">
+        <appender-ref ref="ANALYTICS-FILE"/>
+    </logger>
+
+    <logger name="noraml_logger" level="INFO" additivity="false">
+        <appender-ref ref="FILE"/>
+
+    </logger>
+
+    <!--<root level="INFO">
+        <appender-ref ref="ANALYTICS-FILE"/>
+    </root>-->
+
+</configuration>
